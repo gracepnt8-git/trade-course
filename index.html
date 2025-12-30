@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国际贸易实务课程门户 - 第16章</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --orange: #e67e22;
+            --green: #27ae60;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #f4f7f6 0%, #dfe6e9 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .portal-container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 650px;
+            width: 90%;
+            border-top: 6px solid var(--primary);
+        }
+
+        header {
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            color: var(--primary);
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .course-card {
+            text-decoration: none;
+            padding: 30px 20px;
+            border-radius: 15px;
+            color: white;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .course-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .btn-theory { background: var(--accent); }
+        .btn-cases { background: var(--green); }
+
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .card-desc {
+            font-size: 0.85rem;
+            opacity: 0.9;
+            line-height: 1.4;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: #bdc3c7;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        @media (max-width: 480px) {
+            .links-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="portal-container">
+    <header>
+        <h1>国际贸易实务 · 交互课件</h1>
+        <div class="subtitle">第十六章：货物的检验与报关</div>
+    </header>
+
+    <div class="links-grid">
+        <a href="Chapter-16.html" class="course-card btn-theory">
+            <div class="card-icon">📖</div>
+            <div class="card-title">理论知识精讲</div>
+            <div class="card-desc">包含报关流程、税费计算<br>与即时互动测验</div>
+        </a>
+
+        <a href="Lesson16_CaseStudy.html" class="course-card btn-cases">
+            <div class="card-icon">🎯</div>
+            <div class="card-title">综合案例实训</div>
+            <div class="card-desc">真实外贸案例分析<br>提升业务实操能力</div>
+        </a>
+    </div>
+
+    <footer>
+        使用说明：点击上方模块开始学习，页面左上角设有“首页”按钮可随时返回。
+    </footer>
+</div>
+
+</body>
+</html>
